@@ -159,6 +159,13 @@
 		text-align: right;
 	}
 
+	.clear {
+		clear: both;
+		display: inline;
+		visibility: hidden;
+	}
+
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -1097,12 +1104,27 @@
 				float: left;
 				margin-bottom: 1em;
 				margin-right: 1em;
+				width: 92px;
+				height: 92px
 			}
 
 			.wrapper.style2 .profile h4 {
 				margin-bottom: 0;
 				margin-top: 1em;
 			}
+
+			.wrapper.style2 .profile p {
+				margin-bottom: 0;
+				margin-top: 0;
+				text-align: left;
+				margin-left: calc(92px + 1em);
+				word-break: normal;
+				word-wrap: break-word;
+			}
+				.wrapper.style2 .profile p:nth-child(4) {
+					font-size: 90%;
+					font-style: italic;
+				}
 
 		.wrapper.style2 footer {
 			margin-left: auto;
