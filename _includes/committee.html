@@ -1,0 +1,85 @@
+{% if include.contain %}
+<section class="content">
+{% endif %}
+<header class="major">
+	<h2>Your Committee</h2>
+	<p>Meet the team:</p>
+</header>
+
+<div class="{% if include.contain %}container{% endif %} committee">
+	<section class="committee-member">
+		<img src="{{ "/images/alexis.jpg" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Alexis Monks</h4>
+			<p>President</p>
+			<p>3rd Year Computer Science</p>
+			<p><a href="mailto:president@wiebristol.co.uk">president@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+	<section class="committee-member">
+		<img src="{{ "/images/profile_placeholder.gif" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Elpida Katsiveli</h4>
+			<p>Vice President</p>
+			<p></p>
+			<p><a href="mailto:vice-president@wiebristol.co.uk">vice-president@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+	<section class="committee-member">
+		<img src="{{ "/images/ed-nutting.jpg" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Ed Nutting</h4>
+			<p>Treasurer</p>
+			<p>3rd Year Computer Science and Electronics</p>
+			<p><a href="mailto:treasurer@wiebristol.co.uk">treasurer@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+	<section class="committee-member">
+		<img src="{{ "/images/Isra-Dar.jpg" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Isra Dar</h4>
+			<p>Events and Social</p>
+			<p>2nd Year Civil Engineering</p>
+			<p><a href="mailto:events@wiebristol.co.uk">events@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+	<section class="committee-member">
+		<img src="{{ "/images/Anna-Halliday.jpg" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Anna Halliday</h4>
+			<p>Events and Social</p>
+			<p>2nd Year Civil Engineering</p>
+			<p><a href="mailto:social@wiebristol.co.uk">social@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+	<section class="committee-member">
+		<img src="{{ "/images/profile_placeholder.gif" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Sarah Alli</h4>
+			<p>Outreach and Volunteering</p>
+			<p></p>
+			<p><a href="mailto:outreach@wiebristol.co.uk">outreach@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+	<section class="committee-member">
+		<img src="{{ "/images/profile_placeholder.gif" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Emma Parish</h4>
+			<p>Outreach and Volunteering</p>
+			<p></p>
+			<p><a href="mailto:volunteering@wiebristol.co.uk">volunteering@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+	<section class="committee-member">
+		<img src="{{ "/images/Aleena-Baig.jpg" | prepend: site.baseurl }}" alt=""/>
+		<div>
+			<h4>Aleena Baig</h4>
+			<p>Industry and Careers</p>
+			<p>2nd Year Computer Science</p>
+			<p><a href="mailto:careers@wiebristol.co.uk">careers@wiebristol.co.uk</a></p>
+		</div>
+	</section>
+</div>
+{% if include.contain %}
+</section>
+{% endif %}
