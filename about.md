@@ -5,6 +5,7 @@ permalink: /about/
 headline: Women in Engineering Society
 strapline: The story so far
 image: iwd2016.png
+excerpt: A brief history of the society.
 ---
 
 The Women in Engineering society was founded in 2014 by Eve Tymon (pictured far left). The society was formed as a forum for women to network and support one another within the engineering faculty at the University of Bristol. Eve's goals for the society were ... (for Eve to fill in)

@@ -4,6 +4,7 @@ title: Blog
 permalink: /blog/
 headline: Blog
 strapline: Contributions from our committee and members...
+excerpt: The society blog with contributions from our committee and members.
 ---
 
 <table>

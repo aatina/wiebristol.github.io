@@ -4,6 +4,7 @@ title: Events
 permalink: /events/
 headline: Upcoming and previous events
 strapline: Plenty more coming in 2016-17!
+excerpt: Our past and future events!
 ---
 
 ### For more details, visit our [Facebook]({{ "http://www.facebook.com/" | append: site.facebook_username }}) page or follow the event links below!
