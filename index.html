@@ -40,3 +40,20 @@ order: -1
 </section>
 
 {% include committee.html contain=true %}
+
+<section class="content">
+	<div class="container" style="text-align: center">
+		<p>Find out more by visiting our committee page!</p>
+		<ul class="actions">
+			<li>
+				<a href="{{ "/committee/" | prepend: site.base_url }}" class="button big">See the Committee</a>
+			</li>
+		</ul>
+		<p>Or see what we have on at our events page!</p>
+		<ul class="actions">
+			<li>
+				<a href="{{ "/events/" | prepend: site.base_url }}" class="button big">See the Events</a>
+			</li>
+		</ul>
+	</div>
+</section>
