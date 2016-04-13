@@ -4,17 +4,10 @@ layout: default
 
 <section class="content">
   <div class="container">
-    {% if page.headline %}
-      <header class="major">
-  			<h2>{{ page.headline }}</h2>
-        {% if page.strapline %}
-          <p>{{ page.strapline }}</p>
-        {% endif %}
-  		</header>
+    {% include /partials/major-heading.html headline=page.headline strapline=page.strapline %}
 
-      {% if page.image %}
-  		  <a href="#" class="image fit"><img src="{{ "/images/" | prepend: site.base_url | append: page.image }}" alt="" /></a>
-      {% endif %}
+    {% if page.image %}
+		  <a href="#" class="image fit"><img src="{{ "/images/" | prepend: site.base_url | append: page.image }}" alt="" /></a>
     {% endif %}
 
     {{ content }}

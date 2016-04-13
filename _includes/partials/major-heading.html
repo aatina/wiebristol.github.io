@@ -1,0 +1,8 @@
+{% if include.headline %}
+<header class="major">
+  <h2 itemprop="name headline">{{ include.headline | escape }}</h2>
+  {% if include.strapline %}
+    <p>{{ include.strapline }}</p>
+  {% endif %}
+</header>
+{% endif %}

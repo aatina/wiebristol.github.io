@@ -1,0 +1,9 @@
+<section class="committee-member">
+  <img src="{{ "/images/" | prepend: site.baseurl | append: include.image }}" alt="Photo of {{ include.name }} - {{ include.role }}"/>
+  <div>
+    <h4>{{ include.name }}</h4>
+    <p>{{ include.role | escape }}</p>
+    <p>{{ include.year }} Year {{ include.field | escape }}</p>
+    <p><a href="mailto:{{ include.email | downcase }}@wiebristol.co.uk">{{ include.email | downcase }}@wiebristol.co.uk</a></p>
+  </div>
+</section>
