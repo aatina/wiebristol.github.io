@@ -7,7 +7,7 @@ order: -1
 
 <section class="content medium">
 	<div class="container">
-		{% include /partials/major-heading.html headline="Aims & Actions" strapline="We have set specific goals for the society and this is how we aim to achieve them." %}
+		{% include /partials/major-heading headline="Aims & Actions" strapline="We have set specific goals for the society and this is how we aim to achieve them." %}
 
 		<div class="boxes">
 			<section class="box">
@@ -37,7 +37,7 @@ order: -1
 	</div>
 </section>
 
-{% include committee.html contain=true %}
+{% include committee contain=true %}
 
 <section class="content">
 	<div class="container" style="text-align: center">

@@ -7,7 +7,7 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
     {% endcapture %}
 
-    {% include /partials/major-heading.html headline=page.title strapline=strapline %}
+    {% include /partials/major-heading headline=page.title strapline=strapline %}
 
     <div class="post-content" itemprop="articleBody">
       {{ content }}
