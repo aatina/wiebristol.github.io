@@ -1,10 +1,15 @@
-<section id="banner">
-  <p>{{ site.description }}<br>
-    To keep up to date with all our goings-on <br>
-    Sign up to the mailing list below!</p>
-  <ul class="actions">
-    <li>
-      <a href="http://eepurl.com/bW4Vkn" class="button big">Join the mailing list!</a>
-    </li>
-  </ul>
+<section class="banner">
+  <div class="bg">
+    <img src="{{ "/images/coverphoto.png" | prepend: site.base_url }}" />
+  </div>
+  <div class="bg-cover">&nbsp;</div>
+  <div class="content">
+    <p>{{ site.description }}</p>
+    <p>To keep up to date with all our goings-on, sign up to the mailing list below!</p>
+    <ul class="actions">
+      <li>
+        <a href="http://eepurl.com/bW4Vkn" class="button big">Join the mailing list!</a>
+      </li>
+    </ul>
+  </div>
 </section>
