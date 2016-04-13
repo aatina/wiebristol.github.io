@@ -1239,3 +1239,31 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+
+
+/**
+ * Icons
+ */
+ .copyright {
+	a {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		.fa {
+			display: inline-block;
+			width: 70px;
+			height: 50px;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 3em !important;
+		}
+		.username {
+			font-size: 1.3em;
+			vertical-align: middle;
+		}
+	}
+}

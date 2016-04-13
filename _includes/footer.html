@@ -1,0 +1,38 @@
+<footer id="footer">
+  <div class="container">
+
+    <div class="row">
+      <div class="8u 12u$(medium)">
+        <ul class="copyright">
+          {% if site.facebook_username %}
+          <li>
+            {% include icon-facebook.html username=site.facebook_username %}
+          </li>
+          {% endif %}
+
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="8u 12u$(medium)">
+        <ul class="copyright">
+          <li>&copy; All rights reserved.</li>
+          <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+          <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

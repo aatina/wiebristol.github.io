@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+	Transit by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+<head>
+
+  {% include head.html %}
+
+</head>
+	<body {% if page.landing %}class="landing"{% endif %}>
+
+        {% include header.html %}
+
+        {% if page.landing %}
+          {% include page_banner.html %}
+        {% endif %}
+
+        {{ content }}
+
+        {% include footer.html %}
+
+	</body>
+</html>

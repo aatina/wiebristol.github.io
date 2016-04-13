@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section id="main" class="wrapper">
+  <div class="container">
+    {% if page.headline %}
+      <header class="major">
+  			<h2>{{ page.headline }}</h2>
+        {% if page.strapline %}
+          <p>{{ page.strapline }}</p>
+        {% endif %}
+  		</header>
+
+      {% if page.image %}
+  		  <a href="#" class="image fit"><img src="{{ "/images/" | prepend: site.base_url | append: page.image }}" alt="" /></a>
+      {% endif %}
+    {% endif %}
+
+    {{ content }}
+  </div>
+</section>
