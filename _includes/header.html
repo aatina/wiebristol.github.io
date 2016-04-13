@@ -4,16 +4,14 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-<header id="header">
+<header class="main">
   <h1><a href="{{ site.baseurl }}/">{{ site.title }}{% if page.title %}: {{ page.title }}{% endif %}</a></h1>
   <nav id="nav">
-    <ul>
-      <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+    <div><a href="{{ "/" | prepend: site.baseurl }}">Home</a></div>
+    {% for my_page in site.pages %}
+      {% if my_page.title %}
+        <div><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></div>
+      {% endif %}
+    {% endfor %}
   </nav>
 </header>

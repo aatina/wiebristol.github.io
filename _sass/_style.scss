@@ -14,19 +14,6 @@
 		background: #fff;
 	}
 
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-o-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-o-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
-
 	body, input, select, textarea {
 		color: #444;
 		font-family: "Raleway", Helvetica, sans-serif;
@@ -935,105 +922,43 @@
 
 /* Header */
 
-	body.landing #header {
-		background-color: transparent;
-		left: 0;
-		position: absolute;
-		top: 0;
+	header.main {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: space-around;
+		justify-content: space-around;
+
+		width:100%;
+		padding: 30px 3% 30px 3%;
+
+		background-color: #1D1F1F;
+		color: #fff;
+
+		h1 {
+			color: #fff;
+			font-size: 1.3em;
+			margin: 10px;
+		}
+		
+		nav {
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-webkit-justify-content: center;
+			justify-content: center;
+
+			div {
+			 margin: 0 10px 0 10px;
+
+			 a {
+				 color: #fff;
+			 }
+		 }
+		}
 	}
-
-		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
-		}
-
-	#header {
-		background-color: #383b43;
-		color: #ffffff;
-		cursor: default;
-		font-size: 1.1em;
-		height: 6em;
-		line-height: 6em;
-		width: 100%;
-		z-index: 10000;
-	}
-
-		#header h1 {
-			color: #ffffff;
-			height: inherit;
-			left: 3em;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-		}
-
-			#header h1 a {
-				font-size: 1.25em;
-			}
-
-		#header nav {
-			height: inherit;
-			line-height: inherit;
-			position: absolute;
-			right: 3em;
-			vertical-align: middle;
-		}
-
-			#header nav > ul {
-				list-style: none;
-				margin: 0;
-				padding-left: 0;
-			}
-
-				#header nav > ul > li {
-					border-radius: 4px;
-					display: inline-block;
-					margin-left: 2em;
-					padding-left: 0;
-				}
-
-					#header nav > ul > li a {
-						-moz-transition: color 0.2s ease-in-out;
-						-webkit-transition: color 0.2s ease-in-out;
-						-o-transition: color 0.2s ease-in-out;
-						-ms-transition: color 0.2s ease-in-out;
-						transition: color 0.2s ease-in-out;
-						color: #cdced0;
-						display: inline-block;
-						text-decoration: none;
-					}
-
-						#header nav > ul > li a:active, #header nav > ul > li a:hover {
-							color: #ffffff;
-						}
-
-					#header nav > ul > li:first-child {
-						margin-left: 0;
-					}
-
-					#header nav > ul > li .button {
-						background-color: #fff;
-						color: #444 !important;
-						height: 2.25em;
-						line-height: 2.25em;
-						margin-bottom: 0;
-						padding: 0 1em;
-						position: relative;
-						top: -0.075em;
-						vertical-align: middle;
-					}
-
-		#header .container {
-			position: relative;
-		}
-
-			#header .container h1 {
-				left: 0;
-			}
-
-			#header .container nav {
-				right: 0;
-			}
 
 /* Banner */
 
@@ -1267,3 +1192,64 @@
 		}
 	}
 }
+
+
+/**
+ * Committee Members
+ */
+ .committee {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-align-items: stretch;
+		align-items: stretch;
+
+		width: 100%;
+		height: 100%;
+
+		&-member {
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-webkit-justify-content: left;
+			justify-content: left;
+
+			width: 400px;
+			margin: 10px;
+			padding: 10px;
+
+			text-align: left;
+
+			img {
+				border-radius: 50%;
+				width: 92px;
+				height: 92px;
+				margin: 10px 30px 10px 10px;
+			}
+
+			div {
+				width: 232px;
+			}
+
+			h4 {
+				margin-bottom: 0;
+			}
+
+			p {
+				margin-bottom: 0;
+				margin-top: 0;
+				text-align: left;
+				word-break: normal;
+				word-wrap: break-word;
+			}
+
+			 p:nth-child(4) {
+				font-size: 90%;
+				font-style: italic;
+			 }
+		}
+ }
