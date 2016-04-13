@@ -4,4 +4,4 @@ title: Committee
 permalink: /committee/
 ---
 
-{% include committee.html %}
+{% include committee.html contain=false %}

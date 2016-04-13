@@ -5,42 +5,38 @@ title: Home
 order: -1
 ---
 
-<section id="one" class="wrapper style1 special">
+<section class="content medium">
 	<div class="container">
 		<header class="major">
 			<h2>Aims &amp; Actions</h2>
 			<p>We have set specific goals for the society and this is how we aim to achieve them</p>
 		</header>
-		<div class="row 150%">
-			<div class="4u 12u$(medium)">
-				<section class="box">
-					<h3>Demystify engineering</h3>
-					<p>By having talks, discussions and group meet-ups to discuss various types of engineering.</p>
-				</section>
-			</div>
-			<div class="4u 12u$(medium)">
-				<section class="box">
-					<h3>Break down stereotypes</h3>
-					<p>By increasing exposure overall to the benefits of studying and working in engineering.</p>
-				</section>
-			</div>
-			<div class="4u$ 12u$(medium)">
-				<section class="box">
-					<h3>Provide opportunities</h3>
-					<p>By putting on regular events with industrial partners in order to forge connections and provide information.</p>
-				</section>
-			</div>
+		<div class="boxes">
+			<section class="box">
+				<h3>Demystify engineering</h3>
+				<p>By having talks, discussions and group meet-ups to discuss various types of engineering.</p>
+			</section>
+			<section class="box">
+				<h3>Break down stereotypes</h3>
+				<p>By increasing exposure overall to the benefits of studying and working in engineering.</p>
+			</section>
+			<section class="box">
+				<h3>Provide opportunities</h3>
+				<p>By putting on regular events with industrial partners in order to forge connections and provide information.</p>
+			</section>
 		</div>
 
-		<header class="major">
-			<br> <br>
+		<header class="major bottom0">
+			<br>
+			<br>
 			<h2>Find out more by visiting us on <a href="http://www.facebook.com/womeninengbristol">Facebook</a> </h2>
-			<br> <br>
+			<br>
+			<br>
 			<a href="http://www.facebook.com/womeninengbristol">
-			<img src="images/fb.png" alt="" style="width: 10%; height: 10%" />
+				<img src="{{ "/images/fb.png" | prepend: site.base_url }}" alt="" style="width: 30%; height: auto; max-width: 150px; min-width: 100px;" />
 			</a>
 		</header>
 	</div>
 </section>
 
-{% include committee.html %}
+{% include committee.html contain=true %}

@@ -1,9 +1,12 @@
+{% if include.contain %}
+<section class="content">
+{% endif %}
 <header class="major">
 	<h2>Your Committee</h2>
 	<p>Meet the team:</p>
 </header>
 
-<section class="committee">
+<div class="{% if include.contain %}container{% endif %} committee">
 	<section class="committee-member">
 		<img src="{{ "/images/alexis.jpg" | prepend: site.baseurl }}" alt=""/>
 		<div>
@@ -76,4 +79,7 @@
 			<p><a href="mailto:careers@wiebristol.co.uk">careers@wiebristol.co.uk</a></p>
 		</div>
 	</section>
+</div>
+{% if include.contain %}
 </section>
+{% endif %}
