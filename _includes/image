@@ -1,1 +1,3 @@
-<img src="{{ "/images/" | prepend: site.base_url | append: include.image }}" />
+{% if include.page_fitted %}<span class="image fit">{% endif %}
+<img src="{{ "/images/" | prepend: site.base_url | append: include.image }}" alt="{{ include.alt }}" />
+{% if include.page_fitted %}</span>{% endif %}

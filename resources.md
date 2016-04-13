@@ -8,9 +8,9 @@ excerpt: Resources to support women in engineering and discuss some of the key i
 ---
 
 <div class="row 50% uniform">
-	<div class="4u"><span class="image fit"><img src="{{ "/images/iwdalexis.png" | prepend: site.base_url }}" alt="" /></span></div>
-	<div class="4u"><span class="image fit"><img src="{{ "/images/iwdhelen.png" | prepend: site.base_url }}" alt="" /></span></div>
-	<div class="4u$"><span class="image fit"><img src="{{ "/images/iwdeve.png" | prepend: site.base_url }}" alt="" /></span></div>
+  {% include image="iwdalexis.png" alt="Alexis" page_fitted=true %}
+  {% include image="iwdhelen.png" alt="Helen" page_fitted=true %}
+  {% include image="iwdeve.png" alt="Eve" page_fitted=true %}
 </div>
 
 ----

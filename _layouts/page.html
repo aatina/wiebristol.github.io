@@ -7,7 +7,7 @@ layout: default
     {% include /partials/major-heading headline=page.headline strapline=page.strapline %}
 
     {% if page.image %}
-		  <a href="#" class="image fit"><img src="{{ "/images/" | prepend: site.base_url | append: page.image }}" alt="" /></a>
+      {% include image image=page.image page_fitted=true %}
     {% endif %}
 
     {{ content }}

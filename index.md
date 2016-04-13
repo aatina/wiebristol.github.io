@@ -31,7 +31,7 @@ order: -1
 			<br>
 			<br>
 			<a href="http://www.facebook.com/womeninengbristol">
-				<img src="{{ "/images/fb.png" | prepend: site.base_url }}" alt="" style="width: 30%; height: auto; max-width: 150px; min-width: 100px;" />
+        {% include image image="fb.png" %}
 			</a>
 		</header>
 	</div>
