@@ -5,14 +5,7 @@ This is the Git repository for the Women in Engineering society website. The web
 
 # Contributing
 
-Anyone can contribute to the website by:
-
-1. Signing up to Github (free!), 
-2. Forking this repository (easy & online), 
-3. Editing or creating the relevant file (also easy and online) 
-4. Submitting a pull request to `master` (not quite as easy but still pretty easy)
-
-We aim to review all pull requests within 24-hours!
+Anyone can contribute to the website by following the [guidelines on this page](/_docs/Contributing.md).
 
 # Issues
 
