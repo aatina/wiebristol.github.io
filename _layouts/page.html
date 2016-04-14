@@ -7,7 +7,7 @@ layout: default
     {% include /partials/major-heading headline=page.headline strapline=page.strapline %}
 
     {% if page.image %}
-      {% include image image=page.image page_fitted=true %}
+      {% include image image=page.image full_width=true %}
     {% endif %}
 
     {{ content }}

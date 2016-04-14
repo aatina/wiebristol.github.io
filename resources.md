@@ -7,9 +7,11 @@ strapline: We have put together a collection of helpful websites or writings we 
 excerpt: Resources to support women in engineering and discuss some of the key issues.
 ---
 
-{% include image image="iwdalexis.png" alt="Alexis" page_fitted=true %}
-{% include image image="iwdhelen.png" alt="Helen" page_fitted=true %}
-{% include image image="iwdeve.png" alt="Eve" page_fitted=true %}
+<div class="columns three">
+  {% include image image="iwdalexis.png" alt="Alexis" full_width=true %}
+  {% include image image="iwdhelen.png" alt="Helen" full_width=true %}
+  {% include image image="iwdeve.png" alt="Eve" full_width=true %}
+</div>
 
 ----
 
