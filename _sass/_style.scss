@@ -540,8 +540,8 @@ header.main {
 	height: 400px;
 
 	.bg {
-		width: 50%;
-		height: 90%;
+		width: 90%;
+		height: 85%;
 		position: absolute;
 		left: 50%;
 
@@ -549,7 +549,9 @@ header.main {
 			margin-left: -100%;
 			position: relative;
 			width: auto;
-			height: 100%;
+      max-width: 100%;
+			height: auto;
+      max-height: 100%;
       opacity: 0.3;
 		}
 	}
