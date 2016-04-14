@@ -4,7 +4,7 @@
 
 Contributing to the Women in Engineering website has never been easier! It's a simple four stage process. For those already familiar with Github, here's what you need to do. (For those not familiar, keep reading and we'll explain in more detail).
 
-***Note:** You only need to do steps 1 and 2 the first time you wish to create or edit the website. If you've forked already/before skip to step 3.*
+**Note:** You only need to do steps 1 and 2 the first time you wish to create or edit the website. If you've forked already/before skip to step 3.
 
 1. Create a Github account
 2. Fork the website repository
@@ -12,7 +12,7 @@ Contributing to the Women in Engineering website has never been easier! It's a s
     - Or if you're feeling daring, edit the website's design! You might want to talk to our webmaster first though - Ed Nutting.
 4. Submit a pull request (for your changes to be integrated into the main website)
     - All changes are reviewed by our webmaster. We endeavour to have good changes merged within 48 hours.
-    - ***Note:** You only need to submit a new pull request if your previous one has been merged or closed.*
+    - **Note:** You only need to submit a new pull request if your previous one has been merged or closed.
 
 ## 1. Creating a Github account
 
@@ -116,22 +116,30 @@ Almost all posts and pages are written ***Markdown*** syntax. (Some pages includ
 We also have some specific guidelines for pages and posts. There are a few things to be aware of, which are:
 
 1. Links to pages within the website need to be created as follows:
+
    ```
    [Link Text]({{ "path/to/page/" | prepend: site.base_url }})
    ```
+   
 2. Links to posts within the blog need to be created as follows:
+
    ```
    [Link Text]({{ post_url 2010-07-21-name-of-post }})
    ```
+   
 3. To create a heading and (optionally) strapline, use the following in the YAML (the stuff within the `---` at the start of the file):
+
    ```
    headline: Women in Engineering Society
    strapline: The story so far
    ```
+   
 4. To create a full-width image at the top of a page (after the heading/strapline), use the following in the YAML (the stuff within the `---` at the start of the file):
+
    ```
    image: "iwd2016.png"
    ```
+   
    *Note: The image must be in the `images` folder.*
 
 ### d. Useful resources
@@ -151,7 +159,7 @@ We also have some specific guidelines for pages and posts. There are a few thing
 5. Write a useful message explaining your changes
 6. Click submit
 7. Respond to any comments / change requests
-   ***Note:** If you make more edits to your repository while a pull request exists, those changes will automatically be included in the pull request.*
+   * **Note:** If you make more edits to your repository while a pull request exists, those changes will automatically be included in the pull request.*
 8. Wait for your changes to be merged
 9. See your changes on the website!
 
