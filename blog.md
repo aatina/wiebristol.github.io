@@ -8,10 +8,10 @@ excerpt: The society blog with contributions from our committee and members.
 ---
 
 <table>
-  <tr>
+  <thead>
     <th>Date</th>
     <th>Title</th>
-  </tr>
+  </thead>
   {% for post in site.posts %}
     <tr>
       <td>{{ post.date | date_to_string }}</td>
