@@ -11,7 +11,7 @@ email: webmaster@wiebristol.co.uk
 description: Promoting gender equality in the Faculty of Engineering at the University of Bristol.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.wiebristol.co.uk" # the base hostname & protocol for your site
-twitter_username:
+twitter_username: 
 github_username:  wiebristol/wiebristol.github.io
 facebook_username: womeninengbristol
 
