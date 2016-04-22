@@ -648,7 +648,7 @@ section.content, footer.content, article.content {
 					color: $grey-color;
 				}
 
-        @media (max-device-width: 1000px) {
+        @media (max-width: 1000px) {
           width: 100%;
         }
 			}
