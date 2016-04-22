@@ -624,7 +624,6 @@ section.content, footer.content, article.content {
 
 			.box {
 				width: 30%;
-				min-width: 340px;
 				background-color: #fff;
 				padding: 3em 2.5em;
 
@@ -648,6 +647,10 @@ section.content, footer.content, article.content {
 				h2, h3, h4, h5, h6 {
 					color: $grey-color;
 				}
+
+        @media (max-device-width: 1000px) {
+          width: 100%;
+        }
 			}
 		}
 	}
