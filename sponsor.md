@@ -24,7 +24,7 @@ We've detailed below our three sponsorship packages which cover each our main ac
 Our annual package covers all the activities of the society in one go, along with providing the greatest exposure for you! Your sponsorship will be used for:
 
 - [Events throughout the year]({{ "/events" | prepend: site.base_url }}): e.g. tech talks, discussion groups
-- [Outreach]({{ "/outreach" | prepend: site.base_url }}): e.g. [visits to local schools]({{ "/outreach/2016/04/21/Little-Stoke.html" | prepend: site.base_url }}), [DigiMakers](http://http://www.digimakers.co.uk/)
+- [Outreach]({{ "/outreach" | prepend: site.base_url }}): e.g. [visits to local schools]({% post_url 2016-04-21-Little-Stoke %}), [DigiMakers](http://http://www.digimakers.co.uk/)
 - Inter-society collaboration, with societies such as:
   - [BEEES](http://www.beees.co.uk),
   - [Deflections](http://www.deflections.org.uk/),
