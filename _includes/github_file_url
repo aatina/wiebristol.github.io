@@ -1,0 +1,1 @@
+{{ "/blob/master/" | prepend: site.github_username | prepend: "https://github.com/" | append: include.file }}
