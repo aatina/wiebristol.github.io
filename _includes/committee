@@ -6,7 +6,7 @@
 
 <div class="{% if include.contain %}container{% endif %} committee">
   {% include /partials/committee-member name="Alexis Monks"      image="alexis.jpg"               role="President"                year="3rd"       field="Computer Science"                email="president" %}
-  {% include /partials/committee-member name="Elpida Katsiveli"  image="profile_placeholder.gif"  role="Vice-President"           year="PhD 3rd"   field="Civil Engineering"               email="vice-president" %}
+  {% include /partials/committee-member name="Elpida Katsiveli"  image="Elpida-Katsiveli.jpg"  role="Vice-President"           year="PhD 3rd"   field="Civil Engineering"               email="vice-president" %}
   {% include /partials/committee-member name="Ed Nutting"        image="ed-nutting.jpg"           role="Treasurer"                year="3rd"       field="Computer Science & Electronics"  email="treasurer" %}
   {% include /partials/committee-member name="Isra Dar"          image="Isra-Dar.jpg"             role="Events & Social"          year="2nd"       field="Civil Engineering"               email="events" %}
   {% include /partials/committee-member name="Anna Halliday"     image="Anna-Halliday.jpg"        role="Events & Social"          year="2nd"       field="Civil Engineering"               email="social" %}
