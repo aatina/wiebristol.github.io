@@ -17,7 +17,7 @@ order: -1
 			<section class="box">
 				<h3>Remain inclusive</h3>
 				<p>You do not have to identify as a women to attend our events, we welcome all 
-				like-minded engineers</p>
+				like-minded engineers.</p>
 			</section>
 			<section class="box">
 				<h3>Break down stereotypes</h3>
