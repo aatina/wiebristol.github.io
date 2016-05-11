@@ -15,6 +15,11 @@ order: -1
 				<p>By having talks, discussions and group meet-ups to discuss various types of engineering.</p>
 			</section>
 			<section class="box">
+				<h3>Remain inclusive</h3>
+				<p>You do not have to identify as a women to attend our events, we welcome all 
+				like-minded engineers.</p>
+			</section>
+			<section class="box">
 				<h3>Break down stereotypes</h3>
 				<p>By increasing exposure overall to the benefits of studying and working in engineering.</p>
 			</section>
