@@ -6,13 +6,30 @@
 
 <div class="{% if include.contain %}container{% endif %} committee">
   {% include /partials/committee-member name="Alexis Monks"      image="alexis.jpg"               role="President"                year="3rd"       field="Computer Science"                email="president" %}
+  
   {% include /partials/committee-member name="Elpida Katsiveli"  image="Elpida-Katsiveli.jpg"  role="Vice-President"           year="PhD 3rd"   field="Civil Engineering"               email="vice-president" %}
+  
   {% include /partials/committee-member name="Ed Nutting"        image="ed-nutting.jpg"           role="Treasurer"                year="3rd"       field="Computer Science & Electronics"  email="treasurer" %}
-  {% include /partials/committee-member name="Isra Dar"          image="Isra-Dar.jpg"             role="Events & Social"          year="2nd"       field="Civil Engineering"               email="events" %}
-  {% include /partials/committee-member name="Anna Halliday"     image="Anna-Halliday.jpg"        role="Events & Social"          year="2nd"       field="Civil Engineering"               email="social" %}
+  
+  {% include /partials/committee-member name="Nikita Alexander"          image="nikita.jpg"               role="Secretary"                year="4th"       field="Engineering Design"               email="secretary" %}
+  
+  {% include /partials/committee-member name="Frances James"          image="frances.jpg"             role="Events Representative"     year="2nd"       field="Engineering Design"               email="events" %}
+
+  {% include /partials/committee-member name="Saran Freeman"          image="saran.jpg"               role="Events Representative"     year="2nd"       field="Engineering Design"               email="events" %}
+  
   {% include /partials/committee-member name="Sarah Alli"        image="Sarah-Alli.jpg"           role="Outreach & Volunteering"  year="2nd"       field="Civil Engineering"               email="outreach" %}
+  
   {% include /partials/committee-member name="Emma Parish"       image="Emma-Parish.jpg"          role="Outreach & Volunteering"  year="2nd"       field="Civil Engineering"               email="volunteering" %}
+  
   {% include /partials/committee-member name="Aleena Baig"       image="Aleena-Baig.jpg"          role="Industry & Careers"       year="2nd"       field="Computer Science"                email="careers" %}
+  
+  {% include /partials/committee-member name="Annabel Ohene"        image="annabel.jpg"          role="First year representative"    year="1st"       field="Electrical and Electronic engineering"                email="press" %}
+
+  {% include /partials/committee-member name="Rosie Hudson"           image="rosie.jpg"          role="First year representative"    year="1st"       field="Engineering Design"                email="communications" %}
+
+  {% include /partials/committee-member name="Aatina Punjabi"           image="aatina.jpg"         role="Web Master"                   year="3rd"       field="Computer Science"                email="webmaster" %}
+
+  {% include /partials/committee-member name="Courtney Brown"           image="courtney.jpg"          role="Web Content manager"    year="1st"       field="Electrical and Electronic engineering"                email="webcontent" %}
 </div>
 
 {% if include.contain %}
