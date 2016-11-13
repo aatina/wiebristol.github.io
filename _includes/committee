@@ -27,7 +27,7 @@
 
   {% include /partials/committee-member name="Rosie Hudson"           image="rosie.jpg"          role="First year representative"    year="1st"       field="Engineering Design"                email="communications" %}
 
-  {% include /partials/committee-member name="Aatina Punjabi"           image="aatina.jpg"         role="Web Master"                   year="3rd"       field="Computer Science"                email="webmaster" %}
+  {% include /partials/committee-member name="Aatina Punjabi"           image="aatina.png"         role="Web Master"                   year="3rd"       field="Computer Science"                email="webmaster" %}
 
   {% include /partials/committee-member name="Courtney Brown"           image="courtney.jpg"          role="Web Content manager"    year="1st"       field="Electrical and Electronic engineering"                email="webcontent" %}
 </div>

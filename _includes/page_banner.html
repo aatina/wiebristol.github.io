@@ -1,14 +1,35 @@
 <section class="banner">
-  <div class="bg">
+<!--  <div class="bg">
     {% include image image="coverphoto.png" %}
   </div>
-  <div class="content">
-    <p>{{ site.description }}</p>
-    <p>To keep up to date with all our goings-on, sign up to the mailing list below!</p>
-    <ul class="actions">
-      <li>
-        <a href="{{ site.mailing_list_signup_url }}" class="button big">Join the mailing list!</a>
-      </li>
-    </ul>
+-->
+
+  
+  <div class= "carousel-container">
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.carousel').slick({
+            infinite: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 3000
+          });
+       });
+    </script>
+
+    <div class="carousel" >
+      <img src="images/banner/womensday.png" alt="International Women's day">
+      <img src="images/banner/boat1.jpg" alt="Boat trip">
+      <img src="images/banner/boat2.jpg" alt="Boat trip">
+      <img src="images/banner/dinner.jpg" alt="Dinner">
+      <img src="images/banner/pledge.png" alt="Pledge for parity">
+    </div>  
+    <div class="join-button">
+      <ul class="actions">
+        <li>
+          <a href="{{ site.mailing_list_signup_url }}" class="button big">Join the mailing list!</a>
+        </li>
+      </ul>
+    </div>   
   </div>
 </section>

@@ -40,6 +40,7 @@ order: -1
 			</a>
 		</header>
 	</div>
+
 </section>
 
 {% include committee contain=true %}
