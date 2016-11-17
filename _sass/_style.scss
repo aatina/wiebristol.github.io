@@ -529,7 +529,6 @@ header.main {
 }
 
 
-
 /* Banner */
 .banner {
 	background-color: $banner-bg-color;
@@ -540,19 +539,20 @@ header.main {
 	height: 750px;
 
   .carousel-container{
-      position: relative;
       margin: 0 auto;
-      width:1000px;
-      height:50px;
+      height: auto; 
+      width: auto; 
+      max-width: 1000px; 
+      max-height: 300px;
 
-      slick-prev:before, .slick-next:before { 
+      .slick-prev:before, .slick-next:before { 
         color:white !important;
       }
       .carousel {
         display: block;
         margin: 0 auto;
 
-        img{
+        .img{
           max-width:30%;
           height:auto;
         }
