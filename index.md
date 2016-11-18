@@ -7,8 +7,18 @@ order: -1
 
 <section class="content medium">
 	<div class="container">
-		{% include /partials/major-heading headline="Aims & Actions" strapline="We have set specific goals for the society and this is how we aim to achieve them." %}
 
+		{% include /partials/major-heading headline="Aims & Actions" strapline="We have set specific goals for the society and this is how we aim to achieve them." %}
+		<!--FB js-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
 		<div class="boxes">
 			<section class="box">
 				<h3>Demystify engineering</h3>
@@ -29,21 +39,9 @@ order: -1
 			</section>
 		</div>
 
-		<header class="major bottom0">
-			<br>
-			<br>
-			<h2>Find out more by visiting us on <a href="http://www.facebook.com/womeninengbristol">Facebook</a> </h2>
-			<br>
-			<br>
-			<a href="http://www.facebook.com/womeninengbristol">
-        {% include image image="fb.png" %}
-			</a>
-		</header>
 	</div>
 
 </section>
-
-{% include committee contain=true %}
 
 <section class="content">
 	<div class="container" style="text-align: center">
@@ -59,5 +57,9 @@ order: -1
 				<a href="{{ "/events/" | prepend: site.base_url }}" class="button big">See the Events</a>
 			</li>
 		</ul>
+		<br>
+		<div class="fb-like" data-href="https://www.facebook.com/womeninengbristol/?ref=aymt_homepage_panel" data-width="165" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
+		<a href="https://twitter.com/WiE_Bristol" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @WiE_Bristol</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</div>
 </section>
