@@ -542,10 +542,7 @@ header.main {
       margin: 0 auto;
       height: 100%; 
       width: 100%; 
-
-      .slick-prev:before, .slick-next:before { 
-        color:white !important;
-      }
+      
       .carousel {
         display: block;
         margin: 0 auto;
@@ -856,5 +853,10 @@ footer {
     a {
       color: $grey-color;
     }
+  }
+
+  .sponsor{
+    height: 5em;
+    width: 5em;
   }
 }
