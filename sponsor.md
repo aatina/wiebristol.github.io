@@ -13,6 +13,14 @@ Sponsorship for the society is used to support our key activities: [events]({{ "
 
 We've detailed below our three sponsorship packages which cover each our main activity areas. If you have an alternative proposition though we'd love to hear from you! Please contact our president ([Alexis Monks](mailto:president@wiebristol.co.uk)) or our treasurer ([Ed Nutting](mailto:treasurer@wiebristol.co.uk)).
 
+## Our sponsors
+
+<div>
+  <a href = "http://www.citigroup.com/citi/"><img src="/images/citi.png"></a>
+  <a href = "http://www.pwc.co.uk"><img src="/images/pwc.png"></a>
+  <a href = "http://www.bloomberg.com"><img src="/images/bloomberg.png"></a>
+</div>
+
 ## Packages
 
 <i>{% include file file="wie-sponsorship-packages.pdf" text="Download a PDF copy of the information on this page" %}</i>
